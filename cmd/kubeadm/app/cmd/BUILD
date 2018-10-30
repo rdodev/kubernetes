@@ -93,6 +93,20 @@ go_test(
         "//cmd/kubeadm/app/apis/kubeadm/validation:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",
         "//cmd/kubeadm/app/preflight:go_default_library",
+<<<<<<< HEAD
+=======
+        "//cmd/kubeadm/app/util:go_default_library",
+        "//cmd/kubeadm/app/util/config:go_default_library",
+        "//cmd/kubeadm/app/util/runtime:go_default_library",
+        "//cmd/kubeadm/test:go_default_library",
+        "//staging/src/k8s.io/api/core/v1:go_default_library",
+        "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",
+        "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",
+        "//staging/src/k8s.io/apimachinery/pkg/runtime:go_default_library",
+        "//staging/src/k8s.io/client-go/kubernetes/fake:go_default_library",
+        "//staging/src/k8s.io/client-go/testing:go_default_library",
+        "//staging/src/k8s.io/client-go/tools/clientcmd:go_default_library",
+>>>>>>> f337f0e580... kubeadm: remove the unit test TestRunListTokens
         "//vendor/github.com/ghodss/yaml:go_default_library",
         "//vendor/github.com/spf13/cobra:go_default_library",
         "//vendor/k8s.io/api/core/v1:go_default_library",
